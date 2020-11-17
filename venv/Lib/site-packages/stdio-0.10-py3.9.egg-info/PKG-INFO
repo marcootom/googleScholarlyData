@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: stdio
+Version: 0.10
+Summary: A tcp server to invoke python command line utilities
+Home-page: https://github.com/magicray/main-server
+Author: Bhupendra Singh
+Author-email: bhsingh@gmail.com
+License: UNKNOWN
+Description: A tcp server to invoke python CLI - compatible with http<br>Go to https://github.com/magicray/main-server for details
+Keywords: stdio,main,cli,command line,tcp,server,http
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7

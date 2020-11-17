@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [ 
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'> 
+	<!ENTITY db 'http://db2rdf.org/db#'> 
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]> 
+<rdf:RDF xmlns:rdf="&rdf;" 
+	xmlns:db="&db;" 
+	xmlns:rdfs="&rdfs;">
+<rdfs:Class rdf:about="&db;Json_data"
+	rdfs:label="Json_data">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&db;json_data_name"
+	rdfs:label="json_data_name">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_type"
+	rdfs:label="json_data_type">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_mag_id"
+	rdfs:label="json_data_mag_id">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_num_publications"
+	rdfs:label="json_data_num_publications">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_num_citations"
+	rdfs:label="json_data_num_citations">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_num_publications_5y"
+	rdfs:label="json_data_num_publications_5y">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_num_citations_5y"
+	rdfs:label="json_data_num_citations_5y">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_num_publications_10y"
+	rdfs:label="json_data_num_publications_10y">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_num_citations_10y"
+	rdfs:label="json_data_num_citations_10y">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_isvisible"
+	rdfs:label="json_data_isvisible">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1989"
+	rdfs:label="json_data_publications_years.1989">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1990"
+	rdfs:label="json_data_publications_years.1990">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1991"
+	rdfs:label="json_data_publications_years.1991">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1992"
+	rdfs:label="json_data_publications_years.1992">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1993"
+	rdfs:label="json_data_publications_years.1993">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1994"
+	rdfs:label="json_data_publications_years.1994">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1995"
+	rdfs:label="json_data_publications_years.1995">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1996"
+	rdfs:label="json_data_publications_years.1996">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1997"
+	rdfs:label="json_data_publications_years.1997">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1998"
+	rdfs:label="json_data_publications_years.1998">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.1999"
+	rdfs:label="json_data_publications_years.1999">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2000"
+	rdfs:label="json_data_publications_years.2000">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2001"
+	rdfs:label="json_data_publications_years.2001">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2002"
+	rdfs:label="json_data_publications_years.2002">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2003"
+	rdfs:label="json_data_publications_years.2003">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2004"
+	rdfs:label="json_data_publications_years.2004">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2005"
+	rdfs:label="json_data_publications_years.2005">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2006"
+	rdfs:label="json_data_publications_years.2006">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2007"
+	rdfs:label="json_data_publications_years.2007">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2008"
+	rdfs:label="json_data_publications_years.2008">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2009"
+	rdfs:label="json_data_publications_years.2009">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2010"
+	rdfs:label="json_data_publications_years.2010">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2011"
+	rdfs:label="json_data_publications_years.2011">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2012"
+	rdfs:label="json_data_publications_years.2012">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2013"
+	rdfs:label="json_data_publications_years.2013">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2014"
+	rdfs:label="json_data_publications_years.2014">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2015"
+	rdfs:label="json_data_publications_years.2015">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2016"
+	rdfs:label="json_data_publications_years.2016">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2017"
+	rdfs:label="json_data_publications_years.2017">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_publications_years.2018"
+	rdfs:label="json_data_publications_years.2018">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1989"
+	rdfs:label="json_data_citations_years.1989">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1990"
+	rdfs:label="json_data_citations_years.1990">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1991"
+	rdfs:label="json_data_citations_years.1991">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1992"
+	rdfs:label="json_data_citations_years.1992">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1993"
+	rdfs:label="json_data_citations_years.1993">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1994"
+	rdfs:label="json_data_citations_years.1994">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1995"
+	rdfs:label="json_data_citations_years.1995">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1996"
+	rdfs:label="json_data_citations_years.1996">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1997"
+	rdfs:label="json_data_citations_years.1997">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1998"
+	rdfs:label="json_data_citations_years.1998">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.1999"
+	rdfs:label="json_data_citations_years.1999">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2000"
+	rdfs:label="json_data_citations_years.2000">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2001"
+	rdfs:label="json_data_citations_years.2001">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2002"
+	rdfs:label="json_data_citations_years.2002">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2003"
+	rdfs:label="json_data_citations_years.2003">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2004"
+	rdfs:label="json_data_citations_years.2004">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2005"
+	rdfs:label="json_data_citations_years.2005">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2006"
+	rdfs:label="json_data_citations_years.2006">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2007"
+	rdfs:label="json_data_citations_years.2007">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2008"
+	rdfs:label="json_data_citations_years.2008">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2009"
+	rdfs:label="json_data_citations_years.2009">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2010"
+	rdfs:label="json_data_citations_years.2010">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2011"
+	rdfs:label="json_data_citations_years.2011">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2012"
+	rdfs:label="json_data_citations_years.2012">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2013"
+	rdfs:label="json_data_citations_years.2013">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2014"
+	rdfs:label="json_data_citations_years.2014">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2015"
+	rdfs:label="json_data_citations_years.2015">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2016"
+	rdfs:label="json_data_citations_years.2016">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2017"
+	rdfs:label="json_data_citations_years.2017">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_citations_years.2018"
+	rdfs:label="json_data_citations_years.2018">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1989"
+	rdfs:label="json_data_old_citations.1989">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1990"
+	rdfs:label="json_data_old_citations.1990">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1991"
+	rdfs:label="json_data_old_citations.1991">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1992"
+	rdfs:label="json_data_old_citations.1992">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1993"
+	rdfs:label="json_data_old_citations.1993">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1994"
+	rdfs:label="json_data_old_citations.1994">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1995"
+	rdfs:label="json_data_old_citations.1995">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1996"
+	rdfs:label="json_data_old_citations.1996">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1997"
+	rdfs:label="json_data_old_citations.1997">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1998"
+	rdfs:label="json_data_old_citations.1998">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.1999"
+	rdfs:label="json_data_old_citations.1999">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2000"
+	rdfs:label="json_data_old_citations.2000">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2001"
+	rdfs:label="json_data_old_citations.2001">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2002"
+	rdfs:label="json_data_old_citations.2002">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2003"
+	rdfs:label="json_data_old_citations.2003">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2004"
+	rdfs:label="json_data_old_citations.2004">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2005"
+	rdfs:label="json_data_old_citations.2005">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2006"
+	rdfs:label="json_data_old_citations.2006">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2007"
+	rdfs:label="json_data_old_citations.2007">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2008"
+	rdfs:label="json_data_old_citations.2008">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2009"
+	rdfs:label="json_data_old_citations.2009">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2010"
+	rdfs:label="json_data_old_citations.2010">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2011"
+	rdfs:label="json_data_old_citations.2011">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2012"
+	rdfs:label="json_data_old_citations.2012">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2013"
+	rdfs:label="json_data_old_citations.2013">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2014"
+	rdfs:label="json_data_old_citations.2014">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2015"
+	rdfs:label="json_data_old_citations.2015">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2016"
+	rdfs:label="json_data_old_citations.2016">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2017"
+	rdfs:label="json_data_old_citations.2017">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_old_citations.2018"
+	rdfs:label="json_data_old_citations.2018">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_grid_id"
+	rdfs:label="json_data_grid_id">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&db;json_data_primaryid"
+	rdfs:label="json_data_primaryid">
+	<rdfs:domain rdf:resource="&db;Json_data"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+</rdf:RDF>
